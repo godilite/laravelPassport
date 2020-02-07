@@ -1,9 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
-
+use Validator;
+use App\User;
+use Auth;
 class UsersController extends Controller
 {
         public function login()
